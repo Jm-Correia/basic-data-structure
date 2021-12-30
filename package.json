@@ -1,0 +1,32 @@
+{
+  "name": "basic-concepts",
+  "version": "1.0.0",
+  "description": "This project shows basics concepts about data structure and how is implementation using Node (javascript), here you will find simple examples.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jm-Correia/basic-data-structure.git"
+  },
+  "keywords": [
+    "data",
+    "structure",
+    "searchs",
+    "performane",
+    "GOF"
+  ],
+  "author": "Joao Marcos Correia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jm-Correia/basic-data-structure/issues"
+  },
+  "homepage": "https://github.com/Jm-Correia/basic-data-structure#readme",
+  "dependencies": {
+    "jest": "^27.4.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3"
+  }
+}
