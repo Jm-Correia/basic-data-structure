@@ -54,6 +54,7 @@ describe("QUEUE", () => {
     it("Should be create queue empty and try to remove a element", () => {
         const queue = new Queue(1);
         expect(() => queue.remove()).toThrow();
+        expect(() => queue.remove()).toThrowError('Queue is Empty');
 
     });
 });
