@@ -51,7 +51,7 @@ describe('Stack', () => {
         stack.push(8);
         expect(stack.pop()).toBe(8)
     });
-    it('Should create a stack and try to remove element', () => {
+    it('Should create a stack empty and try to remove element', () => {
         const stack = new Stack();
         expect(() => {
             stack.pop();
