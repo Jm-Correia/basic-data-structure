@@ -191,4 +191,14 @@ describe("Algomania", () => {
         expect(solution([1, 1, 1, 1, 2, 3, 7, 9])).toEqual([-1, -1]);
 
     });
+    it("Longest substring without repeating characters: O(1) Space O(n)", () => {
+        function solution(s) {
+            const array_string = s.split('')
+            const aux_array_string = [...new Set(array_string)]
+            return aux_array_string.length
+        }
+        expect(solution("abcabcbb")).toEqual(3);
+        expect(solution("zzzabcdzzz")).toEqual(5);
+
+    });
 })
